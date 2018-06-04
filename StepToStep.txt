@@ -1,0 +1,25 @@
+﻿ขั้นตอนการนำ Projecct ขึ้นไปที่ GitHub
+ขั้นตอนที่ 1 init
+เปิด Command Prompt แล้วไปที่ Project Folder
+- พิมพ์ git init
+เพื่อให้ git initialize project เรา โดย git จะสร้าง folder .git ใน project
+
+ขั้นตอนที่ 2 remote add origin
+พิมพ์ git remote add origin https://github.com/kanyuhuhu/GitTest.git
+พื่อกำหนดที่เก็บใน GitHub ที่ได้สร้าง Project ไว้ โดยเอามาจาก HTTPS ใน github
+
+ขั้นตอนที่ 3 add * หมายถึงการเอาไฟล์ทั้งหมดที่มีขึ้น หรือไม่ให้กำหนด ชื่อไฟล์.นามสกุลไฟล์ ีที่จะเอาขึ้น
+พิมพ์ git add *
+เพื่อเลือกไฟล์ ทั้งหมดที่จะนำขึ้นไปที่ Project ใน GitHub
+
+ขั้นตอนที่ 4 commit
+พิมพ์ git commit -m "text"
+เพื่อเพิ่มการ commit และใส่คำอธิบายในคำว่า text เช่น first commit เป็นต้น
+
+ขั้นตอนที่ 5 push
+พิมพ์ git push -u origin master
+เพื่อทำการส่งไฟล์ขึ้นไปใน Project ที่ GitHub ในขั้นตอนนี้ จะถาม github username และจะให้ใส่ password ที่เรากำหนดไว้
+ หมายเหตุ การพิมพ์รหัสผ่านจะไม่ปรากฎให้เห็น ไม่ต้องห่วงให้กด Enter ได้เลย
+เมื่อกำหนดทุกอย่างเรียบร้อยแล้ว จะเห็นว่ามีการส่งข้อมูลเข้าไป ตรวจสอบ Project ใน GitHub.com ก็จะเห็นไฟล์ต่างๆ ปรากฏขึ้น
+
+Cr. https://www.programmerthailand.com/tutorial/post/view/108/การ-commit-project-ในเครื่องไปที่-github-กรณีมี-source-code-ในเครื่องอยู่แล้ว
