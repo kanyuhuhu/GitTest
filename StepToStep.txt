@@ -23,3 +23,6 @@
 เมื่อกำหนดทุกอย่างเรียบร้อยแล้ว จะเห็นว่ามีการส่งข้อมูลเข้าไป ตรวจสอบ Project ใน GitHub.com ก็จะเห็นไฟล์ต่างๆ ปรากฏขึ้น
 
 แหล่งอ้างอิงจาก https://www.programmerthailand.com/tutorial/post/view/108/การ-commit-project-ในเครื่องไปที่-github-กรณีมี-source-code-ในเครื่องอยู่แล้ว
+https://medium.com/@ekkazit/คำสั่ง-git-ที่ใช้บ่อย-60ad3b10652e
+https://rundiz.com/web-resources/รวมคำสั่ง-git-github
+https://teerapuch.com/2017/coding/git/คำสั่งพื้นฐาน-git/
